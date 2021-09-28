@@ -1,7 +1,7 @@
 ---
 id: 12020
 course_id: 3297
-repo: phase-1-quiz-javascript-fundamentals-quiz
+repo: phase-1-quiz-javascript-fundamentals
 ---
 
 # JavaScript Fundamentals Quiz
