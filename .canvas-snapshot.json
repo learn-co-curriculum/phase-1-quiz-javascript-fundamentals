@@ -1,0 +1,358 @@
+{
+  "quiz": {
+    "id": 12020,
+    "title": "JavaScript Fundamentals Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12020",
+    "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12020?force_user=1&persist_headless=1",
+    "description": "<p><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></p>\n<p><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": false,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 6,
+    "points_possible": 6.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_12020"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": "until_after_last_attempt",
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12020/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12020/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12020/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12020/submission_versions",
+    "assignment_id": 89023,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6357,
+    "show_correct_answers_last_attempt": false,
+    "version_number": 5,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+      "multiple_choice_question",
+      "multiple_answers_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 12020,
+      "id": 130143,
+      "quiz_group_id": null,
+      "assessment_question_id": 138865,
+      "position": null,
+      "question_name": "Fundamentals: Comparisons",
+      "question_type": "short_answer_question",
+      "question_text": "<p>Fill in the blank for the missing equality operator:</p>\n<pre><code>9000 ___ 9001<br>// =&gt; true</code></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/comparisons-in-javascript?module_item_id=143558\" target=\"_blank\">Comparisons in JavaScript</a></p>",
+      "answers": [
+        {
+          "id": "6520",
+          "text": "!==",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p><span>The&nbsp;</span><strong>strict inequality operator</strong><span>&nbsp;returns&nbsp;</span><code>true</code><span>&nbsp;if two values are equal&nbsp;</span><em>without performing type conversions</em><span>.</span></p>",
+          "weight": 100
+        },
+        {
+          "id": "3781",
+          "text": "!=",
+          "comments": "",
+          "comments_html": "<p>While this is correct, it is best practice to use the <strong>strict inequality operator,</strong> <code>!==</code></p>\n<p>The<span> <strong>loose inequality operator</strong></span><span>&nbsp;</span>returns<span>&nbsp;</span><code>true</code><span>&nbsp;</span>if two values are equal, but it will<span>&nbsp;</span><em>also</em><span>&nbsp;</span>return<span>&nbsp;</span><code>true</code><span>&nbsp;</span>if it can perform a type conversion (e.g., changing the string<span>&nbsp;</span><code>'42'</code><span>&nbsp;</span>into the number<span>&nbsp;</span><code>42</code>) that makes the two values equal.&nbsp;</p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12020,
+      "id": 130144,
+      "quiz_group_id": null,
+      "assessment_question_id": 138867,
+      "position": null,
+      "question_name": "Fundamentals: Conditionals",
+      "question_type": "short_answer_question",
+      "question_text": "<p>Given the following code, what will the value of <code>isAdult</code> be?</p>\n<pre><code>const age = 6;<br>const isAdult = age &gt;= 18;<br><br>isAdult;<br>//=&gt; ___ </code></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/review-conditionals?module_item_id=143559\" target=\"_blank\">Review: Conditionals</a></p>",
+      "answers": [
+        {
+          "id": "4200",
+          "text": "false",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p>If the value of age is less than 18, the value of isAdult is false.</p>",
+          "weight": 100
+        },
+        {
+          "id": "4490",
+          "text": "False",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p>If the value of age is less than 18, the value of isAdult is false.</p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12020,
+      "id": 130145,
+      "quiz_group_id": null,
+      "assessment_question_id": 138868,
+      "position": null,
+      "question_name": "Fundamentals: Logical Operators",
+      "question_type": "fill_in_multiple_blanks_question",
+      "question_text": "<p>How do we declare JavaScript's 3 logical operators?&nbsp;</p>\n<p>[value1] AND</p>\n<p>[value2] OR</p>\n<p>[value3] NOT</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/logical-operators?module_item_id=143560\" target=\"_blank\">Logical Operators</a></p>",
+      "answers": [
+        {
+          "id": "6457",
+          "text": "&&",
+          "comments": "",
+          "comments_html": "<p>Nice one!</p>",
+          "weight": 100.0,
+          "blank_id": "value1"
+        },
+        {
+          "id": "4903",
+          "text": "||",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100.0,
+          "blank_id": "value2"
+        },
+        {
+          "id": "4743",
+          "text": "!",
+          "comments": "",
+          "comments_html": "<p>Nailed it!</p>",
+          "weight": 100.0,
+          "blank_id": "value3"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12020,
+      "id": 130146,
+      "quiz_group_id": null,
+      "assessment_question_id": 138839,
+      "position": null,
+      "question_name": "Fundamentals: Variables",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Which of the following describes a variable that has been declared using <code>const</code>? </span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-variables?module_item_id=143555\" target=\"_blank\">JavaScript Variables</a></p>",
+      "answers": [
+        {
+          "id": 9769,
+          "text": "It cannot be re-assigned or re-declared.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Correct! Trying to re-assign or re-declare a variable that was initially declared using <span><code>const</code> would result in an error.</span></p>",
+          "weight": 100.0
+        },
+        {
+          "id": 2061,
+          "text": "",
+          "html": "<p>It can be re-assigned, but not re-declared.</p>",
+          "comments": "",
+          "comments_html": "<p>Once a variable has been declared with the <code>const</code> keyword, it cannot be re-assigned. For example, this code would result in an error:</p>\n<pre><code>const pi = 3.14159;<br>//=&gt; undefined<br><br>pi = 2.71828;<br>//=&gt; Uncaught TypeError: Assignment to constant variable. </code></pre>",
+          "weight": 0.0
+        },
+        {
+          "id": 4263,
+          "text": "",
+          "html": "<p>It can be re-declared, but not re-assigned.</p>",
+          "comments": "",
+          "comments_html": "<p>Once a variable has been declared with the <code>const</code> keyword, it cannot be re-assigned&nbsp;<strong>or&nbsp;</strong>re-declared. For example, this code would result in an error:</p>\n<p>&nbsp;</p>\n<pre><code>const pi = 3.14159;<br>//=&gt; undefined<br><br>const pi = 2.71828;<br>//=&gt; SyntaxError: Identifier 'pi' has already been declared</code></pre>\n<p>&nbsp;</p>\n<p>Note that you will not be able to reproduce this error in the Chrome developer tools, <a class=\"inline_disabled\" href=\"https://developer.chrome.com/blog/new-in-devtools-92/#const-redeclaration\" target=\"_blank\">since the developer tools allow re-declarations of variables.</a> If you were to run this code in another environment though, an error would appear.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 239,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12020,
+      "id": 130147,
+      "quiz_group_id": null,
+      "assessment_question_id": 138841,
+      "position": null,
+      "question_name": "Fundamentals: Variables",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Which of the following is a disadvantage of using <code>var</code> to declare a variable?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-variables?module_item_id=143555\" target=\"_blank\">JavaScript Variables</a></p>",
+      "answers": [
+        {
+          "id": 739,
+          "text": "It can lead to scope-related bugs.",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 3355,
+          "text": "It does not allow you to redeclare the variable.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><strong>Var</strong><span> variables can be updated and redeclared as long as they are within their scope.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 4684,
+          "text": "It does not allow you to reassign the value of a variable.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><strong>Var</strong><span> variables can be reassigned as long as they are within their scope.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 3704,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12020,
+      "id": 130148,
+      "quiz_group_id": null,
+      "assessment_question_id": 138866,
+      "position": null,
+      "question_name": "Fundamentals: Variables",
+      "question_type": "short_answer_question",
+      "question_text": "<p><span>Variables declared with the <strong>___</strong>&nbsp; keyword can be re-assigned, but not re-declared.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-variables?module_item_id=143555\" target=\"_blank\">JavaScript Variables</a></p>",
+      "answers": [
+        {
+          "id": "8315",
+          "text": "let",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p><span>While variables declared with the <strong>const</strong> keyword can't be re-assigned nor re-declared, and variables declared with the <strong>var</strong> keyword can be re-assigned <em>and</em> re-declared as long as they are within their scope, variables declared with the <strong>let</strong> keyword can be re-assigned, but not re-declared.</span></p>",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
