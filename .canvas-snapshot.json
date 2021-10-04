@@ -4,7 +4,7 @@
     "title": "JavaScript Fundamentals Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12020",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12020?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-javascript-fundamentals\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-javascript-fundamentals/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-javascript-fundamentals\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-javascript-fundamentals/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 10827,
     "show_correct_answers_last_attempt": true,
-    "version_number": 6,
+    "version_number": 7,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -99,14 +99,14 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/comparisons-in-javascript?module_item_id=143558\">Comparisons in JavaScript</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2286,
+          "id": 799,
           "text": "!==",
           "comments": "",
           "comments_html": "<p>Correct!</p>\n\n<p>The <strong>strict inequality operator</strong> returns <code>true</code> if two values are equal\n<em>without performing type conversions</em>.</p>",
           "weight": 100
         },
         {
-          "id": 3298,
+          "id": 8844,
           "text": "!=",
           "comments": "",
           "comments_html": "<p>While this is correct, it is best practice to use the <strong>strict inequality\noperator</strong> <code>!==</code>.</p>\n\n<p>The <strong>loose inequality operator</strong> returns <code>true</code> if two values are equal, but\nit will <em>also</em> return <code>true</code> if it can perform a type conversion (e.g.,\nchanging the string <code>'42'</code> into the number <code>42</code>) that makes the two values\nequal.</p>",
@@ -138,14 +138,14 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/review-conditionals?module_item_id=143559\">Review: Conditionals</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2089,
+          "id": 7540,
           "text": "false",
           "comments": "",
           "comments_html": "<p>Correct!</p>\n\n<p>If the value of <code>age</code> is less than 18, the value of <code>isAdult</code> is false.</p>",
           "weight": 100
         },
         {
-          "id": 4191,
+          "id": 886,
           "text": "False",
           "comments": "",
           "comments_html": "<p>Correct!</p>\n\n<p>If the value of <code>age</code> is less than 18, the value of <code>isAdult</code> is false.</p>",
@@ -177,7 +177,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/logical-operators?module_item_id=143560\">Logical Operators</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7155,
+          "id": 8191,
           "text": "&&",
           "comments": "",
           "comments_html": "<p>Nice one!</p>",
@@ -185,7 +185,7 @@
           "blank_id": "value1"
         },
         {
-          "id": 4021,
+          "id": 8610,
           "text": "||",
           "comments": "",
           "comments_html": "<p>Correct!</p>",
@@ -193,7 +193,7 @@
           "blank_id": "value2"
         },
         {
-          "id": 7082,
+          "id": 4401,
           "text": "!",
           "comments": "",
           "comments_html": "<p>Nailed it!</p>",
@@ -226,7 +226,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-variables?module_item_id=143555\">JavaScript Variables</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5731,
+          "id": 5417,
           "text": "",
           "html": "<p>It cannot be re-assigned or re-declared.</p>",
           "comments": "",
@@ -234,7 +234,7 @@
           "weight": 100.0
         },
         {
-          "id": 704,
+          "id": 7459,
           "text": "",
           "html": "<p>It can be re-assigned, but not re-declared.</p>",
           "comments": "",
@@ -242,15 +242,15 @@
           "weight": 0.0
         },
         {
-          "id": 4730,
+          "id": 3868,
           "text": "",
           "html": "<p>It can be re-declared, but not re-assigned.</p>",
           "comments": "",
-          "comments_html": "<p>Once a variable has been declared with the <code>const</code> keyword, it cannot be\nre-assigned <strong>or</strong> re-declared. For example, this code would result in an\nerror:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">3.14159</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; undefinedconst</span>\n<span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">2.71828</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; SyntaxError: Identifier 'pi' has already been declared</span>\n</code></pre></div>\n<p>Note that you will not be able to reproduce this error in the Chrome developer\ntools,\n<a href=\"https://developer.chrome.com/blog/new-in-devtools-92/#const-redeclaration\">since the developer tools allow re-declarations of variables</a>.\nIf you were to run this code in another environment though, an error would\nappear.</p>",
+          "comments_html": "<p>Once a variable has been declared with the <code>const</code> keyword, it cannot be\nre-assigned <strong>or</strong> re-declared. For example, this code would result in an\nerror:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">3.14159</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; undefinedconst</span>\n<span class=\"kd\">const</span> <span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">2.71828</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; SyntaxError: Identifier 'pi' has already been declared</span>\n</code></pre></div>\n<p>Note that you will not be able to reproduce this error in the Chrome developer\ntools,\n<a href=\"https://developer.chrome.com/blog/new-in-devtools-92/#const-redeclaration\">since the developer tools allow re-declarations of variables</a>.\nIf you were to run this code in another environment though, an error would\nappear.</p>",
           "weight": 0.0
         },
         {
-          "id": 4890,
+          "id": 4032,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -283,7 +283,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-variables?module_item_id=143555\">JavaScript Variables</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 973,
+          "id": 1593,
           "text": "",
           "html": "<p>It can lead to scope-related bugs.</p>",
           "comments": "",
@@ -291,7 +291,7 @@
           "weight": 100.0
         },
         {
-          "id": 459,
+          "id": 835,
           "text": "",
           "html": "<p>It does not allow you to redeclare the variable.</p>",
           "comments": "",
@@ -299,7 +299,7 @@
           "weight": 0.0
         },
         {
-          "id": 6238,
+          "id": 6876,
           "text": "",
           "html": "<p>It does not allow you to reassign the value of a variable.</p>",
           "comments": "",
@@ -307,7 +307,7 @@
           "weight": 0.0
         },
         {
-          "id": 7579,
+          "id": 4573,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -340,7 +340,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/javascript-variables?module_item_id=143555\">JavaScript Variables</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8185,
+          "id": 6176,
           "text": "let",
           "comments": "",
           "comments_html": "<p>Correct! While variables declared with the <code>const</code> keyword can't be\nre-assigned nor re-declared, and variables declared with the <code>var</code> keyword can\nbe re-assigned <em>and</em> re-declared as long as they are within their scope,\nvariables declared with the <code>let</code> keyword can be re-assigned, but not\nre-declared.</p>",
