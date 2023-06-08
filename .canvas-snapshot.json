@@ -85,32 +85,32 @@
       "id": 289891,
       "quiz_id": 42561,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 1,
+      "assessment_question_id": 563558,
+      "position": null,
       "question_name": "Fundamentals: Comparisons",
       "question_type": "short_answer_question",
-      "question_text": "<p>Fill in the blank for the missing <strong>equality</strong> operator:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"mi\">9000</span> <span class=\"nx\">___</span> <span class=\"mi\">9001</span>\n<span class=\"c1\">// =&gt; true</span>\n</code></pre></div>",
+      "question_text": "<p>Fill in the blank for the missing <strong>equality</strong> operator. Your answer should be\nan operator that is used to check whether or not two values are <strong>equal</strong>.</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"mi\">9000</span> <span class=\"nx\">___</span> <span class=\"mi\">9001</span>\n<span class=\"c1\">// =&gt; true</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Comparisons in JavaScript",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/comparisons-in-javascript?module_item_id=523437\">Comparisons in JavaScript</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "6130",
           "text": "!==",
-          "weight": 100,
-          "comments": "Correct! The strict inequality operator returns true if two values are equal without performing type conversions.",
-          "id": 6130,
-          "comments_html": "<p>Correct!</p>\n\n<p>The <strong>strict inequality operator</strong> returns <code>true</code> if two values are equal\n<em>without performing type conversions</em>.</p>"
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n\n<p>The <strong>strict inequality operator</strong> returns <code>true</code> if two values are\nnot equal <em>without performing type conversions</em>.</p>",
+          "weight": 100
         },
         {
+          "id": "1804",
           "text": "!=",
-          "weight": 100,
-          "comments": "While this is correct, it is best practice to use the strict inequality operator !==. The loose inequality operator returns true if two values are equal, but it will also return true if it can perform a type conversion (e.g., changing the string '42' into the number 42) that makes the two values equal.",
-          "id": 1804,
-          "comments_html": "<p>While this is correct, it is best practice to use the <strong>strict inequality\noperator</strong> <code>!==</code>.</p>\n\n<p>The <strong>loose inequality operator</strong> returns <code>true</code> if two values are equal, but\nit will <em>also</em> return <code>true</code> if it can perform a type conversion (e.g.,\nchanging the string <code>'42'</code> into the number <code>42</code>) that makes the two values\nequal.</p>"
+          "comments": "",
+          "comments_html": "<p>While this is correct, it is best practice to use the <strong>strict inequality\noperator</strong> <code>!==</code>.</p>\n\n<p>The <strong>loose inequality operator</strong> returns <code>true</code> if two values are equal, but it\nwill <em>also</em> return <code>true</code> if it can perform a type conversion (e.g., changing\nthe string <code>'42'</code> into the number <code>42</code>) that makes the two values equal.</p>",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -124,8 +124,8 @@
       "id": 289892,
       "quiz_id": 42561,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 2,
+      "assessment_question_id": 563556,
+      "position": null,
       "question_name": "Fundamentals: Conditionals",
       "question_type": "short_answer_question",
       "question_text": "<p>Given the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">age</span> <span class=\"o\">=</span> <span class=\"mi\">6</span><span class=\"p\">;</span>\n<span class=\"kd\">const</span> <span class=\"nx\">isAdult</span> <span class=\"o\">=</span> <span class=\"nx\">age</span> <span class=\"o\">&gt;=</span> <span class=\"mi\">18</span><span class=\"p\">;</span>\n<span class=\"nx\">isAdult</span><span class=\"p\">;</span> <span class=\"c1\">//=&gt; ___</span>\n</code></pre></div>\n<p>What will the value of <code>isAdult</code> be?</p>",
@@ -133,23 +133,23 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Review: Conditionals",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/review-conditionals?module_item_id=523439\">Review: Conditionals</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "4981",
           "text": "false",
-          "weight": 100,
-          "comments": "Correct! If the value of age is less than 18, the value of isAdult is false.",
-          "id": 4981,
-          "comments_html": "<p>Correct!</p>\n\n<p>If the value of <code>age</code> is less than 18, the value of <code>isAdult</code> is false.</p>"
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n\n<p>If the value of <code>age</code> is less than 18, the value of <code>isAdult</code> is false.</p>",
+          "weight": 100
         },
         {
+          "id": "5254",
           "text": "False",
-          "weight": 100,
-          "comments": "Correct! If the value of age is less than 18, the value of isAdult is false.",
-          "id": 5254,
-          "comments_html": "<p>Correct!</p>\n\n<p>If the value of <code>age</code> is less than 18, the value of <code>isAdult</code> is false.</p>"
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n\n<p>If the value of <code>age</code> is less than 18, the value of <code>isAdult</code> is false.</p>",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -163,8 +163,8 @@
       "id": 289893,
       "quiz_id": 42561,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 3,
+      "assessment_question_id": 563560,
+      "position": null,
       "question_name": "Fundamentals: Logical Operators",
       "question_type": "fill_in_multiple_blanks_question",
       "question_text": "<p>How do we declare JavaScript's three logical operators?</p>\n\n<p>[value1] AND</p>\n\n<p>[value2] OR</p>\n\n<p>[value3] NOT</p>",
@@ -172,30 +172,33 @@
       "correct_comments": "",
       "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
       "neutral_comments": "Source/s:Logical Operators",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/logical-operators?module_item_id=523440\">Logical Operators</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "id": 1480,
+          "id": "1480",
           "text": "&&",
-          "blank_id": "value1",
-          "comments": "Nice one!"
+          "comments": "",
+          "comments_html": "<p>Nice one!</p>",
+          "weight": 100.0,
+          "blank_id": "value1"
         },
         {
-          "weight": 100,
-          "id": 5033,
+          "id": "5033",
           "text": "||",
-          "blank_id": "value2",
-          "comments": "Correct!"
+          "comments": "",
+          "comments_html": "<p>Correct!</p>",
+          "weight": 100.0,
+          "blank_id": "value2"
         },
         {
-          "weight": 100,
-          "id": 2784,
+          "id": "2784",
           "text": "!",
-          "blank_id": "value3",
-          "comments": "Nailed it!"
+          "comments": "",
+          "comments_html": "<p>Nailed it!</p>",
+          "weight": 100.0,
+          "blank_id": "value3"
         }
       ],
       "variables": null,
@@ -209,50 +212,50 @@
       "id": 289894,
       "quiz_id": 42561,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 4,
+      "assessment_question_id": 563561,
+      "position": null,
       "question_name": "Fundamentals: Variables",
       "question_type": "multiple_choice_question",
-      "question_text": "Which of the following describes a variable that has been declared using <code>const</code>?",
+      "question_text": "<p>Which of the following describes a variable that has been declared using\n<code>const</code>?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:JavaScript Variables",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/javascript-variables?module_item_id=523434\">JavaScript Variables</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_7898",
-          "id": 7898,
-          "text": "It cannot be re-assigned or re-declared.",
-          "comments": "Correct! Trying to re-assign or re-declare a variable that was initially declared using const would result in an error.",
-          "comments_html": "Correct! Trying to re-assign or re-declare a variable that was initially\ndeclared using <code>const</code> would result in an error."
+          "id": 2302,
+          "text": "",
+          "html": "<p>It cannot be re-assigned or re-declared.</p>",
+          "comments": "",
+          "comments_html": "<p>Correct! Trying to re-assign or re-declare a variable that was initially\ndeclared using <code>const</code> would result in an error.</p>",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_2262",
-          "id": 2262,
-          "text": "It can be re-assigned, but not re-declared.",
-          "comments": "Once a variable has been declared with the const keyword, it cannot be re-assigned. For example, this code would result in an error: const pi = 3.14159; //= undefined pi = 2.71828; //= Uncaught TypeError: Assignment to constant variable.",
-          "comments_html": "<p>Once a variable has been declared with the <code>const</code> keyword, it cannot be\nre-assigned. For example, this code would result in an error:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">3.14159</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; undefined</span>\n<span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">2.71828</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; Uncaught TypeError: Assignment to constant variable.</span>\n</code></pre></div>"
+          "id": 5638,
+          "text": "",
+          "html": "<p>It can be re-assigned, but not re-declared.</p>",
+          "comments": "",
+          "comments_html": "<p>Once a variable has been declared with the <code>const</code> keyword, it cannot be\nre-assigned. For example, this code would result in an error:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">3.14159</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; undefined</span>\n<span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">2.71828</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; Uncaught TypeError: Assignment to constant variable.</span>\n</code></pre></div>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_3416",
-          "id": 3416,
-          "text": "It can be re-declared, but not re-assigned.",
-          "comments": "Once a variable has been declared with the const keyword, it cannot be re-assigned or re-declared. For example, this code would result in an error: const pi = 3.14159; //= undefinedconst const pi = 2.71828; //= SyntaxError: Identifier 'pi' has already been declared  Note that you will not be able to reproduce this error in the Chrome developer tools, since the developer tools allow re-declarations of variables. If you were to run this code in another environment though, an error would appear.",
-          "comments_html": "<p>Once a variable has been declared with the <code>const</code> keyword, it cannot be\nre-assigned <strong>or</strong> re-declared. For example, this code would result in an\nerror:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">3.14159</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; undefinedconst</span>\n<span class=\"kd\">const</span> <span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">2.71828</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; SyntaxError: Identifier 'pi' has already been declared</span>\n</code></pre></div>\n<p>Note that you will not be able to reproduce this error in the Chrome developer\ntools,\n<a href=\"https://developer.chrome.com/blog/new-in-devtools-92/#const-redeclaration\">since the developer tools allow re-declarations of variables</a>.\nIf you were to run this code in another environment though, an error would\nappear.</p>"
+          "id": 2328,
+          "text": "",
+          "html": "<p>It can be re-declared, but not re-assigned.</p>",
+          "comments": "",
+          "comments_html": "<p>Once a variable has been declared with the <code>const</code> keyword, it cannot be\nre-assigned <strong>or</strong> re-declared. For example, this code would result in an error:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">3.14159</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; undefinedconst</span>\n<span class=\"kd\">const</span> <span class=\"nx\">pi</span> <span class=\"o\">=</span> <span class=\"mf\">2.71828</span><span class=\"p\">;</span>\n<span class=\"c1\">//=&gt; SyntaxError: Identifier 'pi' has already been declared</span>\n</code></pre></div>\n<p>Note that you will not be able to reproduce this error in the Chrome developer\ntools,<a href=\"https://developer.chrome.com/blog/new-in-devtools-92/#const-redeclaration\">since the developer tools allow re-declarations of\nvariables</a>.\nIf you were to run this code in another environment though, an error would\nappear.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_7955",
-          "id": 7955,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 7,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -266,48 +269,50 @@
       "id": 289895,
       "quiz_id": 42561,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 5,
+      "assessment_question_id": 563557,
+      "position": null,
       "question_name": "Fundamentals: Variables# Fundamentals: Variables",
       "question_type": "multiple_choice_question",
-      "question_text": "Which of the following is a <strong>disadvantage</strong> of using <code>var</code> to declare a\nvariable?",
+      "question_text": "<p>Which of the following is a <strong>disadvantage</strong> of using <code>var</code> to declare a\nvariable?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:JavaScript Variables",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/javascript-variables?module_item_id=523434\">JavaScript Variables</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_4363",
-          "id": 4363,
-          "text": "It can lead to scope-related bugs."
+          "id": 9115,
+          "text": "",
+          "html": "<p>It can lead to scope-related bugs.</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_7194",
-          "id": 7194,
-          "text": "It does not allow you to redeclare the variable.",
-          "comments": "var variables can be updated and redeclared as long as they are within their scope.",
-          "comments_html": "<code>var</code> variables can be updated and redeclared as long as they are within their\nscope."
+          "id": 6278,
+          "text": "",
+          "html": "<p>It does not allow you to redeclare the variable.</p>",
+          "comments": "",
+          "comments_html": "<p><code>var</code> variables can be updated and redeclared as long as they are within their scope.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_9092",
-          "id": 9092,
-          "text": "It does not allow you to reassign the value of a variable.",
-          "comments": "var variables can be reassigned as long as they are within their scope.",
-          "comments_html": "<code>var</code> variables can be reassigned as long as they are within their scope."
+          "id": 1795,
+          "text": "",
+          "html": "<p>It does not allow you to reassign the value of a variable.</p>",
+          "comments": "",
+          "comments_html": "<p><code>var</code> variables can be reassigned as long as they are within their scope.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_9508",
-          "id": 9508,
-          "text": "I don't know.",
-          "html": "I don't know.",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 9993,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -321,25 +326,25 @@
       "id": 289896,
       "quiz_id": 42561,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 6,
+      "assessment_question_id": 563559,
+      "position": null,
       "question_name": "Fundamentals: Variables",
       "question_type": "short_answer_question",
-      "question_text": "Variables declared with the ______ keyword can be re-assigned, but not\nre-declared.",
+      "question_text": "<p>Variables declared with the ______ keyword can be re-assigned, but not\nre-declared.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:JavaScript Variables",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6638/pages/javascript-variables?module_item_id=523434\">JavaScript Variables</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "5955",
           "text": "let",
-          "weight": 100,
-          "comments": "Correct! While variables declared with the const keyword can't be re-assigned nor re-declared, and variables declared with the var keyword can be re-assigned and re-declared as long as they are within their scope, variables declared with the let keyword can be re-assigned, but not re-declared.",
-          "id": 5955,
-          "comments_html": "Correct! While variables declared with the <code>const</code> keyword can't be\nre-assigned nor re-declared, and variables declared with the <code>var</code> keyword can\nbe re-assigned <em>and</em> re-declared as long as they are within their scope,\nvariables declared with the <code>let</code> keyword can be re-assigned, but not\nre-declared."
+          "comments": "",
+          "comments_html": "<p>Correct! While variables declared with the <code>const</code> keyword can't be re-assigned\nnor re-declared, and variables declared with the <code>var</code> keyword can be\nre-assigned <em>and</em> re-declared as long as they are within their scope, variables\ndeclared with the <code>let</code> keyword can be re-assigned, but not re-declared.</p>",
+          "weight": 100
         }
       ],
       "variables": null,
