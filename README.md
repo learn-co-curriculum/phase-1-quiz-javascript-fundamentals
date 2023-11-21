@@ -1,6 +1,6 @@
 ---
-id: 42561
-course_id: 6638
+id: 53425
+course_id: 7550
 repo: phase-1-quiz-javascript-fundamentals
 ---
 
